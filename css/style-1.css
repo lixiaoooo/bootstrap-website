@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	padding:0;
+	}
+ul li{
+	list-style:none;
+	}
+img{
+	max-width:100%;
+	}		
+/*头部导航栏*/
+.logo{
+	  padding:0; 
+	  }
+	  
+.jumbotron{
+	       background:url(../img/bg.jpg);
+		   margin:50px 0 0 0;
+		   color:#ccc;
+	       }
+.jumbotron h2{
+	           font-size:26px;
+			   padding:0 0 0 20px;
+	           }		   
+.jumbotron h4{
+	           font-size:15px;
+			   padding:0 0 0 20px;
+	           }		   
+.all-content{
+	         padding:40px 0;
+			 background:#eee;
+	         }		   		   
+		   
+.new-content{
+	          background:#fff;
+			  box-shadow: 2px 2px 3px #ccc;
+			  margin-bottom:15px;
+	           }		   
+.new-content img{
+	              margin:12px 0;
+	               }		   
+.new-content h4{
+	            color:#444;
+				font-size:20px;
+				margin-top:15px;
+	            }		   
+.new-content p{
+	            color:#777;
+				font-size:14px;
+				line-height:1.6;
+				margin-top:15px;
+	            }
+.hot-news{
+	       background:#fff;
+	        }				
+.hot-news-img{
+	          margin-top:10px;
+			  margin-bottom:10px;
+			  padding:0;
+	          }				
+.hot-news-text h4{
+	              font-size:16px;
+				  color:#333;
+				  line-height:1.8;
+	               }				
+.hot-news-text p{
+	              font-size:14px;
+				  color:#666;
+	               }						   
+/*尾部申明*/						   
+.footer{
+	    background:rgb(102,102,102);
+		text-align:center;
+		padding:20px;
+		color:#eee;
+	      }			   
+		   
+		   
+		   
+		   
+		   
+		   
+@media (min-width: 768px) {		   
+		    .jumbotron h2{
+	                     font-size:26px;
+	           }		   
+            .jumbotron h4{
+	                     font-size:15px;
+	           }
+		    .new-content h4{
+				          font-size:16px
+				            }
+		    .new-content p{
+				          font-size:10px
+				             }
+		  
+		  
+}
+@media (min-width: 992px) {		  
+		     .jumbotron h2{
+	                      font-size:28px;
+	           }		   
+             .jumbotron h4{
+	                      font-size:16px;
+	           }
+		     .new-content h4{
+				             font-size:18px;
+				            }
+		     .new-content p{
+				            font-size:12px;
+				             }
+		     .hot-news-text h4{
+				              font-size:14px;
+				             }
+		     .hot-news-text p{ 
+				              font-size:12px;
+				              }
+		  
+		  
+}
+		  
+@media (min-width: 1200px) {		  
+		     .jumbotron h2{
+	                      font-size:32px;
+	           }		   
+             .jumbotron h4{
+	                      font-size:18px;
+	           }
+		      .new-content h4{
+				             font-size:20px;
+				            }
+		     .new-content p{
+				            font-size:14px;
+				             }
+		  
+		  
+		  
+		   
+		   
+		   
+		   
+		   
+		   
+}
+		   
+		   
+		   
+		   
+		   

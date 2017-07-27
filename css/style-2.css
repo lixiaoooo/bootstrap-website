@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	padding:0;
+	}
+ul li{
+	list-style:none;
+	}
+img{
+	max-width:100%;
+	}		
+/*头部导航栏*/
+.logo{
+	  padding:0; 
+	  }
+.jumbotron{
+	       background:url(../img/bg.jpg);
+		   margin:50px 0 0 0;
+		   color:#ccc;
+	       }
+.jumbotron h2{
+	           font-size:26px;
+			   padding:0 0 0 20px;
+	           }		   
+.jumbotron h4{
+	           font-size:15px;
+			   padding:0 0 0 20px;
+	           }	
+.all-case{
+	      padding-top:40px;
+		  padding-bottom:40px;
+		  background:#eee;
+		  text-align:center;
+	       }			   
+.caption h3{
+	         font-size:18px;
+			 color:#666;
+	         }			   
+.caption p{
+	         font-size:14px;
+			 color:#666;
+	         }			   
+			   
+/*尾部申明*/						   
+.footer{
+	    background:rgb(102,102,102);
+		text-align:center;
+		padding:20px;
+		color:#eee;
+	      }			   
+		   			   
+			   
+			   
+
+			   
+			   
+@media (min-width: 768px) {		   
+		    .jumbotron h2{
+	                     font-size:26px;
+	           }		   
+            .jumbotron h4{
+	                     font-size:15px;
+	           }
+  		  
+}
+@media (min-width: 992px) {		  
+		     .jumbotron h2{
+	                      font-size:28px;
+	           }		   
+             .jumbotron h4{
+	                      font-size:16px;
+	           }
+		      .caption h3{
+						 font-size:16px;
+	         }			   
+             .caption p{
+						 font-size:12px;
+	         }
+}
+		  
+@media (min-width: 1200px) {		  
+		     .jumbotron h2{
+	                      font-size:32px;
+	           }		   
+             .jumbotron h4{
+	                      font-size:18px;
+	           }
+		      .caption h3{
+						 font-size:18px;
+	         }			   
+              .caption p{
+						 font-size:14px;
+	         }
+		  
+		  
+}			   
+			   
+			   
+			   
+			   
+			   
+			   
